@@ -26,6 +26,7 @@ This project demonstrates **session-based authentication**, **protected routes**
 
 ## Project Structure
 
+```
 auth-app/
 ├── server/
 │   ├── controllers/
@@ -64,7 +65,7 @@ auth-app/
 ├── .gitignore
 ├── README.md
 └── ARCHITECTURE.md
-
+```
 
 ## Authentication Flow
 
@@ -83,14 +84,15 @@ cd auth-app
 npm install  
 
 Create a `.env` file:
-
+bash```
 SESSION_SECRET=your_secret_here  
-PORT=3000  
-
+PORT=3000 
+```
+bash```
 Run the server:
-
+bash```
 npm run dev  
-
+```
 
 ## API Endpoints
 
