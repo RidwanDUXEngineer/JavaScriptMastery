@@ -1,0 +1,42 @@
+@baseUrl = http://localhost:3000/api
+
+### Login
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "ridwan@email.com",
+  "password": "1234"
+}
+
+### Get Logged In User
+GET {{baseUrl}}/auth/me
+
+
+### Update User
+PUT {{baseUrl}}/users/me
+Content-Type: application/json
+
+{
+  "name": "Kolade"
+}
+
+
+### Logout
+POST {{baseUrl}}/auth/logout
+
+### Try Access After Logout
+GET {{baseUrl}}/auth/me
+
+
+### GET USER
+GET {{baseUrl}}/auth/me
+ 
+
+### GET CURRENT USER USING SESSION COOKIES (FALSE)
+GET http://localhost:3000/api/auth/me
+Cookie: connect.sid= s%3Agt0M6zUOJnFKwm0uWKP0QjijcJ3mF0Ha.P6ZyjUU8S3qALtZXu77Qt7WJPsDuqYTgVB1XfFRy4GM
+
+### LOGOUT CURRENT USER USING SESSION COOKIES (FALSE)
+POST http://localhost:3000/api/auth/logout
+Cookie: connect.sid= s%3Agt0M6zUOJnFKwm0uWKP0QjijcJ3mF0Ha.P6ZyjUU8S3qALtZXu77Qt7WJPsDuqYTgVB1XfFRy4GM

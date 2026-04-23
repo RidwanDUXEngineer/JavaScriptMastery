@@ -1,0 +1,68 @@
+
+# Node / Backend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ======================
+# Build / Cache
+# ======================
+dist/
+build/
+.cache/
+.next/
+out/
+
+# ======================
+# Editor / IDE
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# Session / Temp Data
+# ======================
+sessions/
+*.session
+
+# ======================
+# Coverage / Testing
+# ======================
+coverage/
+.nyc_output/
+
+# ======================
+# Frontend
+# ======================
+# If you later add bundlers (Vite/Webpack)
+node_modules/
+dist/
+
+# ======================
+# Misc
+# ======================
+*.tgz
+*.tar.gz
