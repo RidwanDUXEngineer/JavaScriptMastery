@@ -79,18 +79,16 @@ auth-app/
 
 ## Setup
 
+```
 git clone https://github.com/RidwanDUXEngineer/JavaScriptMastery.git  
 cd auth-app  
 npm install  
 
 Create a `.env` file:
-bash```
 SESSION_SECRET=your_secret_here  
 PORT=3000 
-```
-bash```
+
 Run the server:
-bash```
 npm run dev  
 ```
 
