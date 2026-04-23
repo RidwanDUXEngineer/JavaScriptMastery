@@ -93,13 +93,13 @@ npm run dev
 ```
 
 ## API Endpoints
-
+```
 POST /api/auth/login → Login user  
 GET /api/auth/me → Get current user  
 POST /api/auth/logout → Logout user  
 GET /api/users/me → Get user profile  
 PUT /api/users/me → Update user profile  
-
+```
 ## Author
 
 Ridwan Usman  
